@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="/Main/assets/css/base.css" />
+    <link rel="stylesheet" href="/Main/assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="/Main/assets/fonts/fontawesome-free-6.6.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href="/Main/assets/css/responsive.css" />
+    <title>Pb-library</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Header-->
+      <header>
+        <div class="grid">
+          <div class="header__navbar">
+            <div class="header__navbar--logo">
+              <img
+                src="/assets/img/51b9df9e-bookplace-logo-img.png"
+                alt=""
+                class="header__navbar--logo-img"
+              />
+            </div>
+            <div id="mobile-menu" class="icon-mobile">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="open" class="header__navbar--list">
+              <ul>
+                <li><a href="/Main/main.html">Home</a></li>
+                <li><a href="/page-about/about.html">About</a></li>
+                <li><a href="/page-books/books.html">Books</a></li>
+                <li>
+                  <a href="/page-author/BTlon-master/author.html">Author</a>
+                </li>
+                <li>
+                  <a href="/page-contact/contact/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div id="header-btn" class="header__navbar--login">
+              <button
+                class="btn"
+                onclick="window.location.href='/Login-form/html/signin.html'"
+              >
+                Sign In
+              </button>
+            </div>
+          </div>
+          <!--Header-search-->
+          <div class="header__search">
+            <div class="header__search-content">
+              <div class="header__search-content--p">
+                <h2 class="header__search-content--p-title">
+                  Get your new book 📚 for a changed future
+                </h2>
+                <p class="header__search--p-p">
+                  Books are the eternal fire of human intelligence.
+                </p>
+                <div class="header__search-content-form">
+                  <div class="header__search-content-form--input">
+                    <form action="">
+                      <input
+                        type="text"
+                        placeholder="Search book, or search author"
+                        class="header__search-form--input"
+                      />
+                    </form>
+                  </div>
+                  <div>
+                    <button class="header__search-content-form--btn">
+                      Search
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="header__search-content--img">
+                <img
+                  src="/Main/assets/img/header-img.png"
+                  alt=""
+                  class="header__search-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!--Container -->
+
+      <div class="container">
+        <h2 class="container__categories--header item fade-in-down">
+          Categories
+        </h2>
+        <div class="container__categories--list item fade-in-right">
+          <ul>
+            <li>
+              <a href="">Action & Adventure Fiction</a>
+            </li>
+            <li><a href="">Art</a></li>
+            <li><a href="">Biography & Memoir</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">Career & Growth</a></li>
+            <li><a href="">Children's</a></li>
+          </ul>
+        </div>
+        <div class="container__categories--list item fade-in-zoom">
+          <ul>
+            <li><a href="">Classics</a></li>
+            <li><a href="">Comics & Graphic Novels</a></li>
+            <li><a href="">Computers</a></li>
+            <li><a href="">Contemporary Fiction</a></li>
+            <li><a href="">Cooking, Food</a></li>
+            <li><a href="">Erotica</a></li>
+          </ul>
+        </div>
+        <div class="container__categories--list item fade-in-left">
+          <ul>
+            <li>
+              <a href="">Finance & Money Management</a>
+            </li>
+            <li>
+              <a href="">Foreign Language Studies</a>
+            </li>
+            <li><a href="">Games & Activities</a></li>
+            <li><a href="">General Fiction</a></li>
+          </ul>
+        </div>
+        <div class="container__categories--list item fade-in-zoom">
+          <div class="view-more">
+            <a href=""
+              >Browse All Categories<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!--List -->
+      <div class="list">
+        <div class="list-contain">
+          <div class="list-type">
+            <div class="list-type__header item fade-in-right">
+              <h2>Borrow books🔥</h2>
+              <div class="view-more">
+                <a href="">View All<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="list-type__content item fade-in-zoom">
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/nhagiakimTB2020.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Nhà Giả Kim</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/mac-biet-sach-nta.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Mắt Biếc</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Nghigiaulamgiau.png"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Nghĩ Giàu Làm Giàu</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/dacnhantam86.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Đắc Nhân Tâm</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Meodayhaiaubay.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Chuyện Con Mèo Dạy Hải Âu Bay</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Toithayhoavangtrencoxanh.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Tôi Thấy Hoa Vàng Trên Cỏ Xanh</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--aaaa-->
+        <div class="list-contain">
+          <div class="list-type">
+            <div class="list-type__header item fade-in-right">
+              <h2>Popular this month</h2>
+              <div class="view-more">
+                <a href="">View All<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="list-type__content item fade-in-zoom">
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Dethegioibietbanlaai.png"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Để Thế Giới Biết Bạn Là Ai</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/khéo-ăn-khéo-nói-sẽ-có-được-thiên-hạ-3.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Khéo Ăn Nói Sẽ Có Được Thiên Hạ</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Phepmaumagie.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Phép Màu Magie</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Nhanduyen.png"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Gặp Gỡ Đã Là Nhân Duyên</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Namdieuuoccuaong.png"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Năm Điều Ước</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Thinhvuong.png"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Thịnh Vượng</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--bbbb-->
+        <div class="list-contain">
+          <div class="list-type">
+            <div class="list-type__header item fade-in-right">
+              <h2>Editors' pics</h2>
+              <div class="view-more">
+                <a href="">View All<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="list-type__content item fade-in-zoom">
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Suoiammattroi.png"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Sưởi Ấm Mặt Trời</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Satthu.png"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>ANDERS Sát Thủ Cùng Bè Lũ</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Banginthegioi.png"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Ba Nghìn Thế Giới Thơm</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/review-sach-buc-xuc-khong-lam-ta-vo-can-1.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Bức Xúc Không Làm Ta Vô Can</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Hanhlanghailop.png"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Hành Lang Hai Lớp</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Daibang.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Đại Bàng Tái Sinh</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--ccc-->
+        <div class="list-contain">
+          <div class="list-type">
+            <div class="list-type__header item fade-in-right">
+              <h2>Recently read books</h2>
+              <div class="view-more">
+                <a href="">View All<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="list-type__content item fade-in-zoom">
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/an-nhien-nhu-nhung-ang-may-1.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>An Nhiên Như Những Áng Mây</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/tet-viet-bia-1_930a6f157b584d4499841fdfa847c5eb_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Tết Việt</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/ban-nga-bia-1_ff1da2da6f274765b3e847922df40ab9_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Bản Ngã</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/bi-thuong-hon-dau-cham-bia-1_e5cc4e09fa8646689def37c48c32dbcd_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Bi Thương Hơn Dấu Chấm</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/phi-tinh-luong-phai-de-hieu-bia-1_fcbf37150dfa49baa8ba358036e2c7a1_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Phi Tinh Lương Phái Dễ Hiểu</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/544801968_bia-tho-muon-di-ngu-01-2_46ab6f803cba4dcf8fbd820730fc5f4d_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Chú Thỏ Muốn Đi Ngủ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--sub-->
+        <div class="list-contain">
+          <div class="list-type">
+            <div class="list-type__header item fade-in-right">
+              <h2>Award winner books 🏆</h2>
+              <div class="view-more">
+                <a href="">View All<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="list-type__content item fade-in-zoom">
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/anh_muon_thay_dai_duong_trong_mat_em_bia_1_3b5ab4f62cfc46d7aeb66cbe04502821_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Anh Muốn Thấy Đại Dương Trong Mắt Em</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/vn-11134207-7r98o-lyf7nn4bvdjh35.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Tố Thư</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Daihoc.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Đại Học Đừng Học Đại</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/Hado.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Hạ Đỏ</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/dacnhantam86.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Đắc Nhân Tâm</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/nhagiakimTB2020.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Nhà Giả Kim</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--ee-->
+        <div class="list-contain">
+          <div class="list-type">
+            <div class="list-type__header item fade-in-right">
+              <h2>Best children's books</h2>
+              <div class="view-more">
+                <a href="">View All<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="list-type__content item fade-in-zoom">
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/tania-chien-ky-2-01-1_84979c6a3cbe42f2a288d3a6688f6827_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>TANYA Chiến Kỳ</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/bia_a88f724d94024c00aa934a891099f1cf_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Bão Bụi Trần Nơi Sát Giới</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/duoi_bong_trang_nga_bia_1_aa033a974d564b3ab7d1f58ba49c7339_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Dưới Bóng Trăng Ngà</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/bia_kham-pha-trai-dat_bia-1_6a7c7bddcaac42d89e53e154f074d939_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Theo Chân Người Tí Hon Khám Phá</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/mien-tay-du-hi_out2_92a588c06ac6482588158d02a89877a6_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Miền Tây Du Hí</p>
+              </div>
+              <div class="list-type__content--product">
+                <div class="container-img">
+                  <img
+                    style="width: 190px; height: 228px; object-fit: cover"
+                    class="container-img__move"
+                    src="/Main/assets/img/bia_khung-hoang-rung_bia-1_7d72541e330c43379be90a6dd3a28c6c_grande.jpg"
+                    alt=""
+                  />
+                  <button class="container-img__content">Read more</button>
+                </div>
+                <ul>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                  <li><i class="icon-star fa-regular fa-star"></i></li>
+                </ul>
+                <p>Khủng Hoảng Rừng</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- sửa-->
+      </div>
+      <!-- Footer-->
+      <footer>
+        <div class="footer-header">
+          <div class="footer-header__title item fade-in-up">
+            <h2>
+              Subscribe our newsletter to get <br />
+              latest news & updates
+            </h2>
+          </div>
+          <div class="footer-header__search item fade-in-zoom">
+            <div class="header__search-content-form">
+              <div class="header__search-content-form--input">
+                <form action="">
+                  <input
+                    type="text"
+                    placeholder="Your Email Address"
+                    class="header__search-form--input"
+                  />
+                </form>
+              </div>
+              <div>
+                <button class="header__search-content-form--btn">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer content-->
+        <div class="footer-main">
+          <div class="footer-main__content">
+            <div>
+              <img
+                src="/Main/assets/img/51b9df9e-bookplace-logo-img.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="footer_gap">
+                Books are the eternal fire of human intelligence.
+              </p>
+            </div>
+            <div>
+              <a
+                href="https://www.facebook.com/profile.php?id=100069560453162&mibextid=LQQJ4d"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="footer-main__content">
+            <h3>Come &Find Us</h3>
+            <div class="footer-main__content--list">
+              <i><i class="fa-solid fa-house"></i></i>
+              <p>UTC</p>
+            </div>
+            <div class="footer-main__content--list">
+              <i><i class="fa-solid fa-phone"></i></i>
+              <p>0384050334</p>
+            </div>
+            <div class="footer-main__content--list">
+              <i><i class="fa-regular fa-envelope"></i></i>
+              <p>Support@gmail.com</p>
+            </div>
+          </div>
+          <div class="footer-main__content">
+            <div>
+              <h3>Policies</h3>
+              <div class="list-policies">
+                <ul>
+                  <li><a href="">Term Of Use</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Happy Return</a></li>
+                  <li><a href="">Refund Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="/Main/assets/js/main.js"></script>
+</html>
